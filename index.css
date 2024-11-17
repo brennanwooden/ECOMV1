@@ -1,0 +1,193 @@
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+/* Header Styling */
+header {
+  background-color: #f4e1d2;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+header .logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+header nav {
+  display: flex;
+  gap: 20px;
+}
+
+header nav a {
+  text-decoration: none;
+  color: #333;
+  font-size: 18px;
+  transition: color 0.3s;
+}
+
+header nav a:hover {
+  color: #e4b9b9;
+}
+
+/* Shopping Cart Icon */
+#cart {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  cursor: pointer;
+  color: #333;
+}
+
+#cart-icon {
+  margin-right: 5px;
+}
+
+#cart-count {
+  font-size: 18px;
+  color: #e4b9b9;
+  background-color: #333;
+  color: #fff;
+  border-radius: 50%;
+  padding: 5px 10px;
+}
+
+/* Homepage Section */
+#home {
+  text-align: center;
+  margin: 50px 0;
+}
+
+.hero-section img {
+  width: 100%;
+  max-width: 1200px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.welcome-message h1 {
+  font-size: 36px;
+  color: #333;
+}
+
+.welcome-message p {
+  font-size: 20px;
+  color: #666;
+}
+
+/* Image Slider */
+.image-slider {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.image-slider img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #333;
+  color: white;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+.footer-logo h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.footer-links ul {
+  list-style-type: none;
+}
+
+.footer-links ul li {
+  margin-bottom: 10px;
+}
+
+.footer-links ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+}
+
+.footer-links ul li a:hover {
+  color: #e4b9b9;
+}
+
+.footer-social {
+  display: flex;
+  gap: 10px;
+}
+
+.footer-social .social-icon img {
+  width: 30px;
+  height: 30px;
+}
+
+.footer-bottom {
+  font-size: 14px;
+  color: #bbb;
+  padding-top: 20px;
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  header nav {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  #cart {
+    margin-top: 10px;
+  }
+
+  #products .product-list {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  #contact form {
+    padding: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  h1, h2 {
+    font-size: 28px;
+  }
+
+  header nav a {
+    font-size: 16px;
+  }
+
+  #cart {
+    font-size: 20px;
+  }
+}

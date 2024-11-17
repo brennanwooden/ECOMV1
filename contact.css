@@ -1,0 +1,282 @@
+/* Reset some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body and general layout */
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  /* Header Styling */
+  header {
+    background-color: #f4e1d2;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+  }
+  
+  header .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  header nav {
+    display: flex;
+    gap: 20px;
+  }
+  
+  header nav a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    transition: color 0.3s;
+  }
+  
+  header nav a:hover {
+    color: #e4b9b9;
+  }
+  
+  /* Shopping Cart Icon */
+  #cart {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    cursor: pointer;
+    color: #333;
+  }
+  
+  #cart-icon {
+    margin-right: 5px;
+  }
+  
+  #cart-count {
+    font-size: 18px;
+    color: #e4b9b9;
+    background-color: #333;
+    color: #fff;
+    border-radius: 50%;
+    padding: 5px 10px;
+  }
+  
+  /* Contact Page Section */
+  #contact {
+    padding: 40px 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  #contact h2 {
+    font-size: 36px;
+    color: #5c5c5c;
+    margin-bottom: 30px;
+    font-weight: 600;
+  }
+  
+  /* Form Styles */
+  #contact-form {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    text-align: left;
+  }
+  
+  #contact-form div {
+    margin-bottom: 20px;
+  }
+  
+  #contact-form input,
+  #contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+  }
+  
+  #contact-form input:focus,
+  #contact-form textarea:focus {
+    border-color: #e4b9b9;
+    box-shadow: 0 0 5px rgba(228, 185, 185, 0.6);
+  }
+  
+  #contact-form textarea {
+    height: 150px;
+    resize: vertical;
+  }
+  
+  #contact-form button {
+    width: 100%;
+    padding: 12px;
+    font-size: 18px;
+    background-color: #2a2a2a;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #contact-form button:hover {
+    background-color: #e4b9b9;
+  }
+  
+  #error-message {
+    margin-top: 10px;
+    font-size: 14px;
+    color: red;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    #contact {
+      padding: 20px;
+    }
+  
+    #contact h2 {
+      font-size: 28px;
+    }
+  
+    #contact-form {
+      padding: 20px;
+    }
+  
+    #contact-form input,
+    #contact-form textarea {
+      font-size: 14px;
+    }
+  
+    #contact-form button {
+      font-size: 16px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    body {
+      padding: 10px;
+    }
+  
+    #contact h2 {
+      font-size: 24px;
+    }
+  
+    #contact-form input,
+    #contact-form textarea {
+      font-size: 14px;
+    }
+  
+    #contact-form button {
+      font-size: 16px;
+    }
+  }
+  /* Footer Styles */
+  footer {
+    background-color: #333;
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+  }
+  
+  .footer-logo h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .footer-links ul {
+    list-style-type: none;
+  }
+  
+  .footer-links ul li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-links ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+  }
+  
+  .footer-links ul li a:hover {
+    color: #e4b9b9;
+  }
+  
+  .footer-social {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .footer-social .social-icon img {
+    width: 30px;
+    height: 30px;
+  }
+  
+  .footer-bottom {
+    font-size: 14px;
+    color: #bbb;
+    padding-top: 20px;
+  }
+  
+  /* Media Queries for Responsive Design */
+  @media (max-width: 768px) {
+    header {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    header nav {
+      flex-direction: column;
+      gap: 15px;
+    }
+  
+    #cart {
+      margin-top: 10px;
+    }
+  
+    #products .product-list {
+      grid-template-columns: 1fr 1fr;
+    }
+  
+    #contact form {
+      padding: 15px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    h1, h2 {
+      font-size: 28px;
+    }
+  
+    header nav a {
+      font-size: 16px;
+    }
+  
+    #cart {
+      font-size: 20px;
+    }
+  }
+  
