@@ -1,0 +1,91 @@
+{
+    "product_page": {
+      "products": [
+        {
+          "id": 1,
+        "name": "Pink Lipstick",
+        "description": "Long-lasting matte lipstick.",
+        "price": "$19.99",
+        "image": "lipstick.jpg"
+        },
+        {
+          "id": 2,
+          "name": "Foundation Cream",
+          "description": "Full coverage foundation.",
+          "price": "$29.99",
+          "image": "foundation.jpg"
+        },
+        {
+          "id": 3,
+          "name": "Mascara",
+          "description": "Volume-boosting mascara.",
+          "price": "$15.99",
+          "image": "mascara.jpg"
+        },
+        {
+          "id": 4,
+          "name": "Night Cream",
+          "description": "Smooth soft skin.",
+          "price": "$25.99",
+          "image": "nightcream.jpg"
+        },
+        {
+          "id": 5,
+          "name": "Blush ",
+          "description": "Brightening blush.",
+          "price": "$18.99",
+          "image": "blush.jpg"
+        },
+        {
+          "id": 6,
+          "name": "Eyeshadow Palette",
+          "description": "12 colors for stunning eye makeup.",
+          "price": "$35.99",
+          "image": "eyeshadow.jpg"
+        },
+        {
+          "id": 7,
+          "name": "Lip Gloss",
+          "description": "Glossy finish for shiny lips.",
+          "price": "$12.99",
+          "image": "lipgloss.jpg"
+        },
+        {
+          "id": 8,
+          "name": "Nail Polish",
+          "description": "High-quality nail polish in various colors.",
+          "price": "$9.99",
+          "image": "nailpolish.jpg"
+        },
+        {
+          "id": 9,
+          "name": "Makeup Remover",
+          "description": "Gentle makeup remover wipes.",
+          "price": "$7.99",
+          "image": "remover.jpg"
+        },
+        {
+          "id": 10,
+          "name": "Concealer",
+          "description": "Flawless finish.",
+          "price": "$45.99",
+          "image": "concealer.webp"
+        },
+        {
+          "id": 11,
+          "name": "Serum",
+          "description": "The ultimate skincare.",
+          "price": "$14.99",
+          "image": "skincare.jpg"
+        },
+        {
+          "id": 12,
+          "name": "Highlighter",
+          "description": "Glowing, sparkly skin.",
+          "price": "$22.99",
+          "image": "highlighter.jpg"
+        }
+      ]
+    }
+  }
+  
